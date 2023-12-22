@@ -227,8 +227,8 @@ header {
 
   .main-content p {
     font-size: 1.2rem;
-    text-align: center;
-    margin-left: 0;
+    text-align: left;
+    margin-left: 3rem;
   }
 
   .project-img,
@@ -251,23 +251,25 @@ header {
     position: relative;
     top: 0;
     left: 0;
+    width: auto;
+      font-size: 0.9rem;
   }
 
-    
-         /* .title-line 크기 조정 */
-         .title-line {
-           height: 80px;
-           /* 높이 조정 */
-           margin-right: 0.5rem;
-           /* 우측 마진 조정 */
-           margin-bottom: 1rem;
-           /* 하단 마진 조정 */
-         }
-    
-         /* .main-content h1 스타일 */
-         .main-content h1 {
-           font-size: 2rem;
-           /* 폰트 크기 조정 */
-           margin-left: 0;
-         }
+
+  /* .title-line 크기 조정 */
+  .title-line {
+    height: 80px;
+    /* 높이 조정 */
+    margin-right: 0.5rem;
+    /* 우측 마진 조정 */
+    margin-bottom: 1rem;
+    /* 하단 마진 조정 */
+  }
+
+  /* .main-content h1 스타일 */
+  .main-content h1 {
+    font-size: 2rem;
+    /* 폰트 크기 조정 */
+    margin-left: 0;
+  }
 }
