@@ -200,7 +200,6 @@ header {
     align-items: center;
     width: auto;
     padding: 0 10px;
-    margin-top: 4rem;
   }
 
   .header-left,
@@ -214,10 +213,10 @@ header {
     margin: 0 10px;
   }
 
-  .main-content
+  .main-content, .project-section
    {
     width: 100%;
-    
+    margin-top: 4rem;
   }
 
     .title-line {
