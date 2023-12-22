@@ -217,7 +217,25 @@ header {
   .title-container,
   .project-section {
     width: 100%;
+    margin-left: 0;
+      /* 마진 제거 */
+      padding: 20px;
   }
+
+    .title-line {
+      height: 80px;
+      /* 높이 조정 */
+      margin-right: 0.5rem;
+      /* 우측 마진 조정 */
+      margin-bottom: 1rem;
+      /* 하단 마진 조정 */
+    }
+  
+    .main-content h1 {
+      font-size: 2rem;
+      /* 폰트 크기 조정 */
+      margin-left: 0;
+    }
 
   .main-content h1 {
     font-size: 2.5rem;
@@ -249,27 +267,12 @@ header {
 
   .profile-info {
     position: relative;
-    top: 0;
+    top: 1rem;
     left: 0;
     width: auto;
-      font-size: 0.9rem;
+    font-size: 0.9rem;
   }
 
 
-  /* .title-line 크기 조정 */
-  .title-line {
-    height: 80px;
-    /* 높이 조정 */
-    margin-right: 0.5rem;
-    /* 우측 마진 조정 */
-    margin-bottom: 1rem;
-    /* 하단 마진 조정 */
-  }
-
-  /* .main-content h1 스타일 */
-  .main-content h1 {
-    font-size: 2rem;
-    /* 폰트 크기 조정 */
-    margin-left: 0;
-  }
+  
 }
