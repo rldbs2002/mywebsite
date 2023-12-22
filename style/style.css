@@ -273,3 +273,13 @@ header {
 
   
 }
+
+@media screen and (max-width: 400px) {
+  .title-line {
+      width: 12px;
+      height: 130px;
+      background-color: #FFC000;
+      margin-left: 1rem;
+      /* 제목 아래 간격 */
+    }
+}
