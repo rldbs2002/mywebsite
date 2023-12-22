@@ -1,0 +1,191 @@
+@font-face {
+  font-family: "GmarketBold";
+  src: url("../src/font/GmarketSansTTFBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "GmarketMedium";
+  src: url("../src/font/GmarketSansTTFMedium.ttf") format("truetype");
+}
+
+* {
+  font-family: "GmarketMedium";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1B1F24;
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding-left: 7rem;
+  width: 1150px;
+
+}
+
+.header-left {
+  width: 600px;
+  text-align: left;
+}
+
+.nav-center {
+  width: 500px;
+  text-align: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  /* 리스트 스타일 제거 */
+  padding: 0;
+  /* 패딩 제거 */
+  margin: '1rem';
+  /* 마진 제거 */
+}
+
+.nav-list li {
+  margin: 0 30px;
+}
+
+.nav-list a {
+  font-size: 1.3em;
+  color: #fff;
+  /* 링크 색상 */
+  text-decoration: none;
+  /* 밑줄 제거 */
+  font-weight: bold;
+  /* 글자 굵기 */
+}
+
+.nav-list a:hover {
+  color: #BDD7EE
+    /* 호버 시 색상 변경 */
+}
+
+.code-symbol {
+  font-family: 'Courier New', monospace;
+  margin-right: 10px;
+  color: #075FE4
+}
+
+.main-content {
+  width: 800px;
+  margin-top: 2rem;
+  text-align: center;
+  padding: 20px;
+  color: #DEEBF7
+    /* 텍스트 색상 */
+}
+
+.title-container {
+  display: flex;
+  /* Flexbox 사용 */
+  flex-direction: row;
+  /* 자식 요소를 가로로 정렬 */
+  align-items: center;
+  /* 세로 중앙 정렬 */
+}
+
+.title-line {
+  width: 12px;
+  height: 120px;
+  background-color: #FFC000;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+  /* 제목 아래 간격 */
+}
+
+.main-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 4rem;
+  margin-left: 1.2rem;
+  text-align: left;
+  color: #BDD7EE;
+}
+
+.main-content p {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-left: 5rem;
+  font-weight: bold;
+}
+
+.profile-img {
+  width: 200px;
+}
+
+.project-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.project-img {
+  width: 600px;
+  position: absolute;
+  /* 절대 위치 지정 */
+  left: 7rem;
+  /* 왼쪽 끝에서 얼마나 떨어져 있을지 지정 */
+  top: 37rem;
+  /* 상단에서 얼마나 떨어져 있을지 지정 */
+  -webkit-mask-image: linear-gradient(to top, transparent 5%, black 100%);
+  mask-image: linear-gradient(to top, transparent 5%, black 100%);
+}
+
+.profile-img {
+  width: 680px;
+  height: auto;
+  position: absolute;
+  /* 절대 위치 지정 */
+  left: 73rem;
+  top: 1rem;
+  /* 메뉴창 높이에 맞춰 조절 */
+  /* 추가 스타일 */
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.project-btn {
+  left: calc(600px + 80px);
+  /* 이미지 너비 + 원하는 간격 */
+  top: 37.5rem
+    /* 상단에서의 위치 */
+}
+
+.github-btn {
+  left: calc(600px + 80px);
+  /* 이미지 너비 + 원하는 간격 */
+  top: 41rem;
+  /* 상단에서의 위치 */
+}
+
+.profile-info {
+  font-size: 1rem;
+  font-weight: bold;
+  width: 200px;
+  color: #fff;
+  position: absolute;
+  top: calc(180px + 850px);
+  /* 프로필 이미지 높이 + 상단 간격 */
+  left: 80rem;
+}
