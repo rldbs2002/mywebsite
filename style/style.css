@@ -96,7 +96,7 @@ a {
 
 .title-line {
   width: 12px;
-  height: 7rem;
+  height: 6.5rem;
   background-color: #FFC000;
   margin-left: 5rem;
   margin-right: 1rem;
@@ -183,13 +183,14 @@ a {
 
   .content-container {
     flex-direction: column;
-    align-items: flex-start;
     margin-left: 0;
+      margin-right: 0;
+      padding: 10px;
   }
 
     .title-line {
       width: 12px;
-      height: 7rem;
+      height: 5.5rem;
       background-color: #FFC000;
       margin-left: 3rem;
       margin-right: 1rem;
@@ -212,20 +213,41 @@ a {
 
   .project-img,
   .profile-img {
-    width: 100%;
-    /* 이미지 너비를 화면 너비에 맞춤 */
+    width: 90%;
+      margin: 0 auto;
+      /* 중앙 정렬 */
     height: auto;
     /* 높이를 자동으로 조절하여 비율 유지 */
   }
 }
 
 @media screen and (max-width: 500px) {
+
+  .title-container h1 {
+      font-size: 1.7rem;
+    }
+
+        .subtitle-content {
+          font-size: 1.2rem;
+        }
   .title-line {
-      width: 12px;
-      height: 5rem;
-      background-color: #FFC000;
+    height: 3rem;
       margin-left: 0;
       margin-right: 1rem; 
     }
+
+        .button {
+          /* 버튼 크기 및 글자 크기 조정 */
+          font-size: 1rem;
+          padding: 8px 12px;
+        }
+
+                .profile-info {
+                  font-size: 0.8rem;
+                  font-weight: bold;
+                  width: 400px;
+                  color: #fff;
+                  /* 프로필 이미지 높이 + 상단 간격 */
+                }
 
 }
