@@ -84,6 +84,10 @@ a {
   flex-basis: 33%;
 }
 
+.column-2 {
+  min-width: 500px;
+}
+
 .title-container {
   display: flex;
   flex-direction: row;
@@ -117,6 +121,10 @@ a {
 
 .subtitle-content {
   font-size: 1.3rem;
+}
+
+.column-2 .subtitle-content p {
+  white-space: nowrap;
 }
 
 
@@ -181,6 +189,10 @@ a {
     margin: 2rem;
   }
 
+    .column-2 {
+      min-width: 400px;
+    }
+
   .content-container {
     flex-direction: column;
     margin-left: 0;
@@ -221,7 +233,7 @@ a {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 520px) {
   .title-container  {
       margin-bottom: 2rem;
     }
@@ -240,20 +252,21 @@ a {
     margin-right: 1rem;
   }
 
+    .column-2 {
+      min-width: 100%;
+    }
+
   .button {
     /* 버튼 크기 및 글자 크기 조정 */
     font-size: 1rem;
     padding: 8px 12px;
   }
 
-  .buttons {
-    text-align: center;
-  }
 
   .profile-info {
     font-size: 0.8rem;
     font-weight: bold;
-    width: 400px;
+    width: 100%;
     color: #fff;
     /* 프로필 이미지 높이 + 상단 간격 */
   }
