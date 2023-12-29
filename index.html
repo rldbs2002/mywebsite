@@ -1,90 +1,110 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>kiyoonj's Blog</title>
   <link rel="stylesheet" href="style/style.css" />
   <link rel="apple-touch-icon" sizes="180x180" href="src/img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="src/img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="src/img/favicon-16x16.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
-<body>
-  <header>
-    <div>
-      <h1><span class="code-symbol">&lt;/&gt;</span> kiyoon jung</h1>
+<body style="background-color: #1B1F24;">
+
+  <div class="m-5">
+    <header>
+      <div>
+        <h1><span style="color: #075FE4;">&lt;/&gt;</span> kiyoon jung</h1>
+      </div>
+    </header>
+
+    <div class="row mx-0">
+      <div class="col-xl-5 col-lg-12 ">
+        <div style="padding-left: 3rem;">
+          <div class="title-container" style="width: 100%;">
+            <div class="title-line"></div>
+            <h1>Full-Stack Web<br /> Developer</h1>
+          </div>
+          <div class="title-image">
+            <img src="src\img\kgoods.png" alt="Project Image" class="project-img " id="project" />
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-12 ">
+        <div class="sub2" style="padding-left: 3rem;">
+          <h2 class="skills-heading">I am <br />Junior Developer with...</h2>
+          <div class="subtitle-content">
+            <p><span style="color: #FF7F50">Front-end</span> &nbsp;&nbsp;&nbsp;&nbsp;HTML, CSS, Bootstrap, JS, React</p>
+            <p><span style="color: #FF7F50">Back-end</span> &nbsp;&nbsp;&nbsp;&nbsp;node.js, postgresql, mongoDB</p>
+            <p style="color: #FF7F50"> TypeScript, Next.js</p>
+
+          </div>
+
+          <div class="buttons">
+            <a href="https://bazzarproject2.vercel.app/" class="button project-btn">
+              <i class="fas fa-briefcase"></i> &nbsp;portfolio
+            </a>
+            <a href="https://github.com/rldbs2002/bazzarproject2" class="button github-btn">
+              <i class="fab fa-github"></i> &nbsp;github
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-4 col-lg-12 ">
+        <img src="src\img\profile.png" alt="Profile Image" class="profile-img" />
+      </div>
     </div>
-  </header>
 
-  <div class="content-container">
-    <section class="column-1">
-      <!-- 컬럼 1 내용 -->
-      <div class="title-container">
-        <div class="title-line"></div>
-        <h1>Full-Stack Web<br /> Developer</h1>
-      </div>
-      <img src="src\img\kgoods.png" alt="Project Image" class="project-img" id="project" />
-    </section>
-
-    <section class="column-2">
-      <!-- 컬럼 2 내용 -->
-      <div class="subtitle">
-        <h2 class="skills-heading">I am <br />Junior Developer with...</h2>
-        <div class="subtitle-content">
-          <p><span style="color: #FF7F50">Front-end</span> &nbsp;&nbsp;&nbsp;&nbsp;HTML, CSS, BootStrap JS, React</p>
-          <p><span style="color: #FF7F50">Back-end</span> &nbsp;&nbsp;&nbsp;&nbsp;node.js, postgresql, mongoDB</p>
-          <p style="color: #FF7F50"> TypeScript, Next.js</p>
+    <footer>
+      <div class="row mx-0 my-5">
+        <div class="col-xl-3">
 
         </div>
 
-        <div class="buttons">
-          <a href="https://bazzarproject2.vercel.app/" class="button project-btn">
-            <i class="fas fa-briefcase"></i> &nbsp;portfolio
-          </a>
-          <a href="https://github.com/rldbs2002/bazzarproject2" class="button github-btn">
-            <i class="fab fa-github"></i> &nbsp;github
-          </a>
+
+        <div class="col-xl-3 col-lg-12 profile-info1"> <!-- Profile Info 1 -->
+          <p>Email: rldbs2002@naver.com</p>
+          <p>mobile: 010-7107-9134</p>
+          <p>&copy; 2023 kiyoonjung All Rights Reserved.</p>
+        </div>
+
+
+
+
+
+
+        <div class="col-xl-3">
 
         </div>
+        <div class="col-xl-3 col-lg-12 profile-info3"> <!-- Profile Info 3 -->
+          <p>Birth: 95.02.20, 28 years old</p>
+          <a href="https://bazzarproject2.vercel.app">portfolio: bazzarproject2.vercel.app</a>
+          <br />
+          <br />
+          <a href="https://github.com/rldbs2002/bazzarproject2"><i class="fab fa-github"></i>
+            github.com/rldbs2002/bazzarproject2</a>
+        </div>
       </div>
-    </section>
-
-    <section class="column-3">
-      <!-- 컬럼 3 내용 -->
-      <img src="src\img\profile.png" alt="Profile Image" class="profile-img" />
-
-    </section>
-
+    </footer>
 
   </div>
-  <footer>
-    <div class="profile-info1">
-      <p>Email: rldbs2002@naver.com</p>
-      <p>mobile: 010-7107-9134</p>
-      <a href="https://instagram.com/kiyoonj">
-        <i class="fab fa-instagram"></i> instagram.com/kiyoonj
-      </a>
 
-    </div>
 
-    <div class="profile-info2">
-      <p>Birth: 95.02.20, 28 years old</p>
-      <a href="https://bazzarproject2.vercel.app">portfolio: bazzarproject2.vercel.app</a>
-      <br />
-      <br />
-      <a href="https://github.com/rldbs2002/bazzarproject2"><i class="fab fa-github"></i>
-        github.com/rldbs2002/bazzarproject2</a>
-      <br />
-      <br />
-        
-      <p>&copy;  2023 kiyoonjung All Rights Reserved.</p>
 
-    </div>
-  </footer>
-  <script src="index.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
