@@ -24,6 +24,10 @@ header {
   margin: 3rem;
 }
 
+header h1{
+  font-size: 2.5rem;
+}
+
 .title {
   padding-left: 3rem;
 }
@@ -120,6 +124,10 @@ header {
 
 
 @media (max-width: 576px) {
+
+  header h1 {
+      font-size: 2rem;
+    }
 
   .title {
     padding-left: 0;
