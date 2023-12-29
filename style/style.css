@@ -102,6 +102,13 @@ header h1{
   height: auto;
 }
 
+footer {
+  background-color: #505050;
+  padding: 30px 0;
+  text-align: center;
+  
+}
+
 .profile-info1,
 .profile-info3 {
   width: 100%;
