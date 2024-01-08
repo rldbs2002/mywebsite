@@ -108,7 +108,22 @@ footer {
   
 }
 
-.profile-info1,
+.profile-info2 {
+  display: flex;
+  /* Flexbox 사용 */
+  align-items: center;
+  /* 수직 정렬 */
+  height: 100px;
+  /* 필요에 따라 조절 */
+  text-align: center;
+}
+
+.social-icon {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.profile-info1, .profile-info2,
 .profile-info3 {
   width: 100%;
 }
